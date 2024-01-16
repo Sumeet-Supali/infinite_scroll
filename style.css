@@ -1,0 +1,31 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+.card{
+    padding: 22px;
+    background-color: gainsboro;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    height:400px;
+}
+
+img{
+    width: 250px;
+    object-fit:contain;
+    height: 400px;
+}
